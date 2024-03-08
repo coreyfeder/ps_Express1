@@ -2,9 +2,13 @@ const express = require("express");
 
 const app = express();
 const port = 3000; // try 5000 if troubles
+const host = "localhost";
+const protocol = "http";
+
+const url = `${protocol}://${host}:${port}/`
 
 app.listen(port, () => {
-    console.log(`Server listening on port: ${port}.`);
+    console.log(`Server listening at: ${url}.`);
 });
 
 // no paths yet, not even '/'. let's declare a route!
