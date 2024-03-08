@@ -28,3 +28,11 @@ app.get("/user", (req, res) => {
 app.post("/user", (req, res) => {
     res.send("Received a POST request for user!");
 });
+
+app.patch("/user", (req, res) => {
+    res.send("Received a PATCH request for user! If only it were that easy, eh?");
+});
+
+app.delete("/user", (req, res) => {
+    res.send("HAHA! It actually IS that easy! But don't do that. Murder is bad, y'all.");
+});
