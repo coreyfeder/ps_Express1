@@ -16,7 +16,9 @@ Or is this
 
 [Read here](https://www.canva.com/design/DAFrinsqKgA/z9-LOsFAqZa9KH2uU-7z6A/view)
 [Submit here](https://perscholas.instructure.com/courses/1923/assignments/355837)
-
+Maybe some sample code from Ariel?
+    https://github.com/astitt1/rest-crud-rtt-03/tree/main/
+    
 
 ## Objectives
 
